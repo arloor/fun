@@ -12,6 +12,7 @@ special_x = np.array([32, 64, 96, 128])
 
 # 定义函数及其导数
 functions = {
+    # 函数 f(x) = x^a 的导数是 f'(x) = a * x^(a-1)
     r"${x}^{0.8}$": (np.power(x,0.8), 0.8 * np.power(x, -0.2)),
     r"${x}^{0.75}$": (np.power(x,0.75), 0.75 * np.power(x, -0.25)),
     r"${x}^{0.6}$": (np.power(x,0.6), 0.6 * np.power(x, -0.4)),
