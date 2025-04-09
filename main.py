@@ -15,6 +15,7 @@ functions = {
     # 函数 f(x) = x^a 的导数是 f'(x) = a * x^(a-1)
     r"${x}^{0.8}$": (np.power(x,0.8), 0.8 * np.power(x, -0.2)),
     r"${x}^{0.75}$": (np.power(x,0.75), 0.75 * np.power(x, -0.25)),
+    r"${x}^{0.7}$": (np.power(x,0.7), 0.7 * np.power(x, -0.3)),
     r"${x}^{0.6}$": (np.power(x,0.6), 0.6 * np.power(x, -0.4)),
     r"${x}^{0.5}$": (np.power(x,0.5), 0.5 * np.power(x, -0.5)),
     r"$\ln{x}$": (np.log(x), 1 / x),
